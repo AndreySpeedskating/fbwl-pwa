@@ -1,0 +1,28 @@
+.container{
+	width:90%;
+	max-width:640px;
+	gap:24px;
+	padding:16px 23px;
+	margin:24px 0 0;
+	background:var(--ion-color-white);
+	border:1px solid var(--ion-color-black);
+	border-radius:4px
+}
+
+.text{
+	color:var(--ion-text-primary-black)
+}
+.send-button{
+	width:50%;
+	margin:auto;
+	--background:var(--ion-button-background);
+	color:var(--ion-color-white)
+}
+.no-entry {
+	color:var(--ion-button-background)
+}
+.back-icon {
+	position: absolute;
+	left: 6px;
+	margin: auto 0;
+}

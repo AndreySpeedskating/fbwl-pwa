@@ -1,0 +1,11 @@
+.content-row {
+	flex-wrap: wrap;
+	gap: 1px;
+	width: fit-content;
+	padding-bottom: 1px;
+	background-color: var(--ion-color-white);
+}
+
+.row-with-big {
+	row-gap: 1px;
+}

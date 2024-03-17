@@ -1,0 +1,18 @@
+.container {
+	--background: #fff1fd;
+}
+
+.logo-container {
+	width: 50%;
+	min-width: 240px;
+	max-width: 640px;
+	margin: 36px auto 0;
+}
+
+.title {
+	font-family: "SF600", sans-serif;
+}
+
+.form {
+	margin: 36px auto auto;
+}

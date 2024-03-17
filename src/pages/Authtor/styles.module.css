@@ -1,0 +1,44 @@
+.authtor-tool-bar {
+	--background: var(--ion-color-white);
+}
+
+.authtor-page {
+	--background: #ffc900;
+}
+
+.title {
+	font-size: 32px;
+	font-weight: 500;
+	line-height: 32px;
+	letter-spacing: 0em;
+}
+
+.text-color {
+	color: #231b1f
+}
+
+.description {
+	font-size: 20px;
+	line-height: 24px;;
+}
+
+.ps {
+	position: relative;
+	width: 100%;
+	border-radius: 8px;
+	border: 2px solid #000;
+	padding: 28px 24px 24px 24px;
+	background: #fff;
+}
+
+.heart {
+	position: absolute;
+	top: -18px;
+	left: 14px;
+}
+
+.stars {
+	position: absolute;
+	right: -14px;
+	bottom: 12px;
+}

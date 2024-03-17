@@ -1,0 +1,27 @@
+.feed-row {
+    --inner-padding-end: var(--zero);
+    --padding-start: 10px;
+    --padding-end: 10px;
+    --background: var(--ion-color-white);
+}
+
+.feed-active-row {
+    --background: var(--ion-background-color);
+}
+
+.feed-default-accordion {
+    --background: var(--ion-color-white)!important;
+}
+
+.feed-active-accordion {
+    --background: var(--ion-button-background)!important;
+    --color: var(--ion-color-white);
+}
+
+.feed-inner {
+    padding: 0 10px;
+    margin: auto auto auto 0;
+    font-family: "SF400",sans-serif;
+    font-size: 14px;
+    line-height: 22px;
+}

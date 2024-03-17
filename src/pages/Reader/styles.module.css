@@ -1,0 +1,59 @@
+.ion-header {
+	--border-width: var(--zero)!important;
+	--padding-top: var(--zero);
+	--padding-bottom: var(--zero);
+	--background: var(--ion-color-white);
+}
+
+.reader-modal {
+	--background: var(--ion-color-white);
+}
+
+.ion-header>ion-item>ion-title>svg {
+	position: absolute;
+	left: 20px;
+	transform: rotate(180deg);
+}
+
+.segment>ion-segment-button {
+	--indicator-color: var(--ion-button-background);
+}
+
+.title {
+	--color: var(--ion-button-text-color);
+	font-weight: 500;
+}
+
+.sub-header {
+	--padding-start: var(--zero);
+	--padding-end: var(--zero);
+	--background: var(--ion-color-white);
+}
+
+.segment-label {
+	font-family: "SF400",sans-serif;
+	text-transform: none;
+	color: var(--ion-button-background);
+}
+
+.navbar {
+	position: absolute;
+	width: var(--full);
+	--padding-start: var(--zero);
+	--inner-padding-end: var(--zero);
+	bottom: calc(var(--ion-safe-area-bottom, 0) + 51px);
+	--background: var(--ion-color-white);
+	box-shadow: 0 3px 20px rgba(46,61,121,.28);
+}
+
+.reverse svg>path {
+	transform: rotate(180deg);
+	transform-origin: 50% 50%;
+}
+
+.content {
+	position: relative;
+	--padding-top: var(--ion-safe-area-top, 0);
+	--padding-bottom: 52px;
+	--background: var(--ion-color-white);
+}

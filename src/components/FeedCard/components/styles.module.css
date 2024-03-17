@@ -1,0 +1,139 @@
+.status-container {
+	row-gap: 12px;
+	margin: -12px 0 6px;
+}
+
+.info-container {
+	align-items: center;
+	justify-content: space-between;
+}
+
+.info-block {
+	align-items: center;
+	column-gap: 12px;
+}
+
+.date {
+	font-size: 12px;
+	color: var(--ion-color-default-gray-light);
+}
+
+.episode {
+	font-family: 'SF600', sans-serif;
+	font-size: 15px;
+}
+
+.post-text-container {
+	position: relative;
+	max-height: 44px;
+	overflow: hidden;
+}
+
+.post-text-container.post-text-full {
+	max-height: fit-content;
+}
+
+.rollup {
+	display: var(--flex-row);
+	width: fit-content;
+	margin: 8px auto;
+	color: var(--ion-gray);
+}
+
+.rollup > svg {
+	transform: rotate(-90deg);
+	margin: auto 8px auto var(--zero);
+}
+
+.more {
+	position: absolute;
+	background-color: var(--ion-color-white);
+	bottom: var(--zero);
+	right: var(--zero);
+	width: 44px;
+	text-align: right;
+	color: var(--ion-gray);
+	font-size: 15px;
+}
+
+.comment-block {
+	row-gap: 12px;
+	padding: var(--zero);
+}
+
+.comment-wrapper {
+	align-items: center;
+	column-gap: 18px;
+}
+
+.comment-message-button {
+	color: var(--ion-gray);
+}
+
+.comment-wrapper > svg {
+	margin: 8px auto;
+}
+
+.comment-avatar {
+	width: 32px;
+	height: 32px;
+}
+
+.author-title {
+	margin-bottom: 6px;
+}
+
+.author-wrapper {
+	align-items: center;
+	column-gap: 12px;
+	margin: 0 0 12px;
+}
+
+.wide {
+	transform: scaleX(1.1);
+}
+
+.bookmark {
+	margin: 0 -12px 0 auto;
+	transform: scaleX(1.3);
+}
+
+.comment-button {
+	cursor: pointer;
+	height: 32px;
+	--color: var(--ion-gray);
+	--padding-start: var(--zero);
+  --padding-end: var(--zero);
+	margin: var(--zero);
+}
+
+.hashtag {
+	color: var(--ion-button-text-color);
+	text-transform: capitalize;
+	font-size: 15px;
+	height: 23px;
+	padding-top: 0;
+	padding-bottom: 0;
+}
+
+.hashtag-swiper {
+	width: 100%;
+	column-gap: 12px;
+	margin: 8px 0;
+	overflow: hidden;
+}
+
+.hashtag-swiper::-webkit-scrollbar {
+	display: none;
+}
+
+.chip {
+	min-width: fit-content;
+	--background: #e9e9ff;
+	border-radius: 20px;
+}
+
+.hashtag-swiper-slide {
+  width: fit-content;
+	max-width: fit-content;
+}

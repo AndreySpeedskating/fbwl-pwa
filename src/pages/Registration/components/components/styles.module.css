@@ -1,0 +1,9 @@
+.input-error{
+	border:1px solid var(--ion-input-error)
+}
+.feedback-content-modal{
+	position:relative;
+	box-sizing:border-box;
+	height:var(--full);
+	padding:32px 10px 0
+}

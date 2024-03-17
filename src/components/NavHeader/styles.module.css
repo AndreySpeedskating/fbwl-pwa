@@ -1,0 +1,26 @@
+.ion-header {
+	--border-width: 0!important;
+	--padding-top: var(--zero);
+	--padding-bottom: var(--zero)
+}
+
+.ion-header>ion-item>ion-title>svg {
+	position: absolute;
+	left: 20px;
+	transform: rotate(180deg);
+}
+
+.sub-header {
+	--padding-start: var(--zero);
+	--padding-end: var(--zero);
+}
+
+.title {
+	margin: auto;
+	color: var(--ion-button-text-color);
+	font-weight: 600;
+}
+
+.white > ion-item {
+	--background: var(--ion-color-white) !important;
+}

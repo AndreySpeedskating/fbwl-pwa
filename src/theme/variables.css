@@ -1,0 +1,20 @@
+:root {
+  --ion-color-primary: #402984;
+  --ion-color-white: #fff;
+  --ion-color-black: #000;
+  --ion-color-default-blue-light: #007aff;
+  --ion-color-default-gray-light: #aeaeb2;
+  --ion-background-color: #e9e9ff;
+  --ion-toolbar-background: #e9e9ff;
+  --ion-button-background: #402984;
+  --ion-input-focus: #7879f1;
+  --ion-input: #c2c9d1;
+  --ion-input-error: #c75090;
+  --ion-button-text-color: #402984;
+  --ion-gray: #808080;
+  --ion-text-primary-black: #231b1f;
+  --flex-row: flex;
+  --ion-color-danger: #E93210;
+  --full: 100%;
+  --zero: 0;
+}

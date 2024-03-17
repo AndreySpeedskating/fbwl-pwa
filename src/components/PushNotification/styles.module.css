@@ -1,0 +1,22 @@
+.text-center {
+	text-align: center;
+}
+
+.container {
+	height: fit-content;
+	margin: 64px 20px 20px;
+	text-align: center;
+}
+
+.ion-content {
+	--background: var(--ion-color-white);
+	border: 1px solid #000;
+	border-radius: 10px;
+	overflow: hidden;
+}
+
+.push-icon {
+	margin: 12px auto;
+	font-size: 32px;
+	transform: rotate(30deg);
+}

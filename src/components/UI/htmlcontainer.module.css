@@ -1,0 +1,15 @@
+.text {
+	font-family: 'SF400', sans-serif !important;
+	letter-spacing: 0.066px;
+	overflow: hidden;
+	text-overflow: ellipsis;
+	white-space: pre-wrap;
+}
+
+.text > * {
+	font-size: 15px;
+	font-weight: 400;
+	font-family: 'SF400', sans-serif !important;
+	margin: 0;
+	background: transparent;
+}

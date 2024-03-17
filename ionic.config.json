@@ -1,0 +1,7 @@
+{
+  "name": "fbwl-landing",
+  "integrations": {
+    "capacitor": {}
+  },
+  "type": "react"
+}

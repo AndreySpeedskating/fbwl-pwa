@@ -1,0 +1,74 @@
+.title {
+	--color: var(--ion-button-text-color);
+	font-weight: 500;
+}
+
+.complete-button {
+	position: absolute;
+	right: 10px;
+	margin: auto;
+}
+
+.complete-button::part(native) {
+	color: var(--ion-gray);
+}
+
+.user-info-container {
+	row-gap: 12px;
+	position: relative;
+	overflow: visible;
+	min-height: fit-content;
+	padding: 8px;
+	margin: 24px 10px 32px;
+	--padding-start: var(--zero);
+	background: var(--ion-color-white);
+	border: 1px solid var(--ion-color-black);
+	border-radius: 8px;
+}
+
+.user-about {
+	font-family: "SF400", sans-serif;
+	font-size: 16px;
+}
+
+.subscripe-content-modal {
+	height: var(--full);
+	--padding-top: 22px;
+	--padding-bottom: 22px;
+	--padding-start: 10px;
+	--padding-end: 10px;
+}
+
+.subscribe-modal-button {
+	--color: var(--ion-color-black);
+}
+
+ion-checkbox {
+	--size: 22px;
+	--background-checked: var(--ion-input-focus);
+}
+
+ion-checkbox::part(container) {
+	border-radius: 6px;
+	border: 2px solid var(--ion-input-focus);
+}
+
+.checkbox {
+	margin: auto 12px -6px 0;
+}
+
+.subscribe-ofert-container {
+	height: var(--full);
+	margin: auto;
+}
+
+.ofert-inner {
+	row-gap: 24px;
+}
+
+.ofert-button {
+	height: 18px;
+	width: 56px;
+	margin: -9px 0 0;
+	--color: var(--ion-button-text-color);
+}

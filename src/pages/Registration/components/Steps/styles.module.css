@@ -1,0 +1,8 @@
+.note{
+	cursor:pointer;
+	color: var(--ion-button-background);
+}
+.disabled{
+	color:var(--ion-color-default-gray-light)!important;
+	pointer-events:none
+}

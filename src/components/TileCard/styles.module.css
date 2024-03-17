@@ -1,0 +1,91 @@
+.content-wrapper {
+	position: relative;
+	width: calc((100vw - 22px) / 3);
+	height: calc((100vw - 22px) / 3);
+	border-radius: 4px;
+	overflow: hidden;
+	--padding-start: var(--zero);
+  --inner-padding-end: var(--zero);
+	
+}
+
+.content-wrapper::part(native) {
+	height: 100%;
+}
+
+.full-height {
+	height: 100%;
+}
+
+.img {
+	object-fit: cover;
+}
+
+.video {
+	border-radius: 4px;
+	overflow: hidden;
+}
+
+.pay-content {
+	position: absolute;
+	top: 50%;
+	left: 50%;
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	justify-content: center;
+	padding: 12px;
+	font-size: 14px;
+	background: rgba(0, 0, 0, 0.4);
+  backdrop-filter: blur(14px);
+  border-radius: 8px;
+	color: var(--ion-color-white);
+	text-align: center;
+	transform: translate(-50%, -50%);
+}
+
+.img-blur {
+	filter: blur(10px);
+}
+
+.big {
+	width: calc(((100vw - 21px) / 3) * 2);
+	height: calc(((100vw - 21px) / 3) * 2);
+}
+
+.pay-icon {
+	position: absolute;
+	top: 50%;
+	left: 50%;
+	transform: translate(-50%, -50%);
+}
+
+.icons {
+	z-index: 10;
+	position: absolute;
+	top: 4px;
+	right: 4px;
+	width: 16px;
+	height: 16px;
+	font-size: 16px;
+}
+
+.like-icon {
+	position: absolute;
+	top: calc(((100vw - 22px) / 3) - 20px);
+	left: 4px;
+	font-size: 16px;
+}
+
+.like-icon-big {
+	top: calc((((100vw - 22px) / 3) * 2) - 28px);
+}
+
+.like-icon > svg > path {
+	fill: var(--ion-color-white);
+}
+
+.big-icons {
+	font-size: 24px;
+	width: 24px;
+}

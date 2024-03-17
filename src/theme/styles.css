@@ -1,0 +1,245 @@
+@font-face {
+	font-family: 'SF400';
+	font-weight: 400;
+	src: local('../assets/font/Mariupol-Regular.ttf') format('truetype');
+	font-display: swap;
+}
+
+@font-face {
+	font-family: 'SF500';
+	font-weight: 500;
+	src: local('../assets/font/Mariupol-Medium.ttf') format('truetype');
+	font-display: swap;
+}
+
+@font-face {
+	font-family: 'SF600';
+	font-weight: 600;
+	src: local('../assets/font/Mariupol-Bold.ttf') format('truetype');
+	font-display: swap;
+}
+
+* {
+	box-sizing: border-box;
+	font-family: 'SF500', sans-serif;
+	font-size: 16px;
+	line-height: 22px;
+}
+
+.flex-row {
+	display: var(--flex-row);
+}
+
+.full-height {
+	height: var(--full);
+}
+
+.height-fit-content {
+	height: fit-content;
+}
+
+.full-width {
+	width: var(--full);
+}
+
+.relative-p {
+	position: relative;
+}
+
+.flex-column {
+	display: var(--flex-row);
+	flex-direction: column;
+}
+
+.flex-center {
+	align-items: center;
+	justify-content: center;
+}
+
+.flex-align-center {
+	align-items: center;
+}
+
+.flex-space-between {
+	justify-content: space-between;
+}
+
+.flex-wrap {
+	flex-wrap: wrap;
+}
+
+.font400 {
+	font-family: 'SF400', sans-serif;
+}
+
+.font500 {
+	font-family: 'SF500', sans-serif;
+}
+
+.font16-22 {
+	font-size: 16px;
+	line-height: 22px;
+}
+
+.font14-19 {
+	font-size: 14px;
+	line-height: 19px;
+}
+
+.font12-16 {
+	font-size: 12px;
+	line-height: 16px;
+}
+
+.has-focus.sc-ion-input-ios-h {
+	border: 1px solid var(--ion-button-background);
+}
+
+.jodit-container {
+  border: 1px solid var(--ion-input) !important;
+  border-radius: 8px !important;
+  overflow: hidden;
+}
+
+button[class*='jodit-toolbar-button'] {
+	width: 38px;
+	height: 38px;
+}
+
+ion-button:part(native) > span {
+	overflow: visible;
+}
+
+ion-modal::part(handle) {
+	width: var(--full);
+	margin: var(--zero);
+	height: 15px;
+	background: transparent;
+}
+
+ion-input{
+	--padding-start:8px!important;
+	border-radius:8px;
+	overflow:hidden;
+	--color:var(--ion-text-primary-black);
+	border:1px solid var(--ion-input);
+}
+
+input[type="number"]::-webkit-outer-spin-button,
+input[type="number"]::-webkit-inner-spin-button {
+	display: none;
+}
+
+.list-corrector {
+	margin-top: var(--ion-safe-area-top, 0);
+}
+
+ion-modal::part(handle)::before {
+	border-radius: 8px;
+	height: 6px;
+	width: 42px;
+	margin: auto;
+	padding: var(--zero);
+	background: var(--ion-color-default-gray-light);
+}
+
+scroll-content {
+  padding-bottom: 0!important;
+}
+
+ion-ripple-effect {
+	border-radius: var(--full);
+}
+
+ion-icon {
+	font-size: 24px;
+}
+
+a {
+	text-decoration: none;
+	color: var(--ion-input-focus);
+}
+
+a:visited {
+	color: var(--ion-input-focus);
+}
+
+.button-transparent {
+	--background: transparent;
+	--background-activated: transparent;
+	--background-hover: transparent;
+}
+
+.tab-selected > svg > path {
+	fill: var(--ion-color-black);
+	stroke: var(--ion-color-black);
+}
+
+.tab-selected > svg > circle {
+	fill: var(--ion-color-default-blue-light);
+	stroke: var(--ion-color-default-blue-light);
+}
+
+.button-present-default {
+	font-size: 16px;
+	color: var(--ion-button-background) !important;
+}
+
+.tab-has-label > svg > path {
+	fill: var(--ion-color-default-gray-light);
+	stroke: var(--ion-color-default-gray-light);
+}
+
+.tab-has-label > svg > circle {
+	fill: var(--ion-color-default-gray-light);
+	stroke: var(--ion-color-default-gray-light);
+}
+
+.video-scheme {
+	--ion-background-color: #ffe6fc;
+  --ion-toolbar-background: #ffe6fc;
+  --ion-button-background: var(--ion-input-error);
+}
+
+.serials-scheme {
+	--ion-background-color: #e5f6f1;
+  --ion-toolbar-background: #e5f6f1;
+  --ion-button-background: #4c9b82;
+}
+
+.heroes-scheme {
+	--ion-background-color: #e9e9ff;
+  --ion-toolbar-background: #e9e9ff;
+  --ion-button-background: #402984;
+}
+
+.backstage-scheme {
+	--ion-background-color: #fffdd6;
+  --ion-toolbar-background: #fffdd6;;
+  --ion-button-background: #9c4d34;
+}
+
+.ion-custom-backdrop-modal {
+	--ion-backdrop-color: transparent;
+}
+
+ion-modal::part(handle) {
+	height: 35px;
+}
+
+div .ion-page { 
+  animation: fadeIn 0.15s 1 ease-in;
+}
+
+body {
+	background: var(--ion-background-color);
+}
+
+@keyframes fadeIn {
+  0% {
+    opacity: 0;
+  }
+  100% {
+    opacity: 1;
+  }
+}

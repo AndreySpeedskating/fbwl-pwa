@@ -1,0 +1,10 @@
+.button {
+	height: 40px;
+	margin: 16px auto;
+	--background: var(--ion-button-background);
+	font-size: 16px !important;
+	color: var(--ion-color-white);
+	--border-radius: 4px;
+	--background-activated: transparent;
+	--background-hover: transparent;
+}

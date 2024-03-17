@@ -1,0 +1,43 @@
+.header {
+	position: absolute;
+	width: var(--full);
+	height: 24px;
+	top: var(--zero);
+	background: var(--ion-background-color);
+}
+
+.content {
+	position: relative;
+	height: var(--full);
+}
+
+.zoom-toolbar {
+	--background: var(--ion-color-black) !important;
+}
+
+.modal-title {
+	margin: auto auto auto 12px;
+}
+
+.hero-container {
+	position: relative;
+	overflow: visible;
+	min-height: fit-content;
+	padding: 8px;
+	margin: 0 0 32px;
+	background: var(--ion-color-white);
+	border: 1px solid var(--ion-color-black);
+	border-radius: 8px;
+}
+
+.hero-avatar {
+	min-width: 36px;
+	width: 36px;
+	height: 36px;
+	margin: auto 12px auto 0;
+}
+
+.hero-about {
+	font-family: 'SF400', sans-serif;
+	letter-spacing: 0.066px;
+}

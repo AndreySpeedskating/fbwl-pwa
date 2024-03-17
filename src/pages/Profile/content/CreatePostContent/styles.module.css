@@ -1,0 +1,50 @@
+.input {
+	--background: var(--ion-color-white);
+}
+
+.button {
+	--background: var(--ion-button-background);
+	color: var(--ion-color-white);
+}
+
+.menu-select {
+	background: var(--ion-color-white);
+	border-radius: 8px;
+	border: 1px solid var(--ion-input);
+}
+
+.reorder {
+	border-radius: 8px;
+  overflow: hidden;
+  border: 1px solid var(--ion-input);
+	margin: 0 20px 20px 20px;
+}
+
+.reorder-item {
+	--padding-start: 0;
+	--inner-padding-end: 0;
+}
+
+.slide {
+	margin: 0 24px ;
+}
+
+.date-picker {
+	box-sizing: content-box;
+	min-width: 100%;
+	border-radius: 8px;
+	box-shadow: 0 0 1px 1px var(--ion-input);
+}
+
+.content-editable-div {
+	height: fit-content;
+	min-height: 48px;
+	background: var(--ion-color-white);
+	border-radius: 4px;
+	padding: 12px;
+	white-space: pre-wrap;
+}
+
+.content-editable-div:focus {
+	outline: 1px solid var(--ion-button-background);
+}

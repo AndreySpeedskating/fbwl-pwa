@@ -1,0 +1,51 @@
+image: alpine:3.16
+
+stages:
+  - setup
+  - test
+  - deploy
+
+cache:
+  untracked: true
+  key: "$CI_BUILD_REF_NAME"
+  paths:
+    - node_modules
+
+setup:
+  stage: setup
+  needs: [ ]
+  script:
+    - docker system prune -a -f
+    - yarn install
+  tags:
+    - fbwl
+    - frontend
+    - stage
+  only:
+    - develop
+
+test:
+  stage: test
+  needs: [ "setup" ]
+  script: yarn run lint
+  tags:
+    - fbwl
+    - frontend
+    - stage
+  only:
+    - develop
+
+deploy:
+  stage: deploy
+  needs: [ "test" ]
+  script:
+    - docker build
+      -t $CI_PROJECT_NAME .
+    - docker rm $(docker stop $(docker ps -a -q --filter "name=$CI_PROJECT_NAME" --format="{{.ID}}") || true) || true
+    - docker run --restart=always --name=$CI_PROJECT_NAME -p 3180:80 -itd $CI_PROJECT_NAME
+  tags:
+    - fbwl
+    - frontend
+    - stage
+  only:
+    - develop

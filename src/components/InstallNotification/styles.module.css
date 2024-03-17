@@ -1,0 +1,26 @@
+.hide-header {
+	transform: translate(0, -96px);
+}
+
+.ion-content {
+	--background: var(--ion-color-white);
+	border: 1px solid #000;
+	border-radius: 10px;
+	overflow: hidden;
+}
+
+.text-center {
+	text-align: center;
+}
+
+.beforeinstall-wrapper {
+	position: relative;
+	row-gap: 12px;
+	width: 100%;
+	padding: 36px 10px 10px;
+}
+
+.logo-img::part(image) {
+	margin: auto;
+	max-height: 264px;
+}

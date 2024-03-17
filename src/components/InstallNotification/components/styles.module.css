@@ -1,0 +1,46 @@
+.install-slider-wrapper {
+	position: relative;
+	width: 100%;
+	padding: 36px 10px 10px;
+}
+
+.slide {
+	row-gap: 12px;
+}
+
+.text-color {
+	color: var(--ion-input-error);
+}
+
+.install-slider-wrapper > div[class*='swiper-initialized'] {
+	max-height: 362px;
+	padding: 0 0 18px;
+}
+
+.slider-img::part(image) {
+	max-height: 264px;
+}
+
+.notation-colored {
+	color: var(--ion-button-background);
+}
+
+.description {
+	font-family: 'SF400', sans-serif;
+	font-size: 14px;
+}
+
+.header {
+	margin: 24px 16px;
+}
+
+.install-slider-wrapper div[class*='swiper-pagination'] {
+	bottom: 0 !important;
+	line-height: var(--zero);
+}
+
+.install-slider-wrapper div[class*='swiper-pagination'] > span[class*='swiper-pagination-bullet-active-main'] {
+	background: var(--ion-input-error);
+	opacity: 1;
+}
+
